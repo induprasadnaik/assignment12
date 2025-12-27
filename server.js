@@ -6,7 +6,7 @@ const productRoutes = require('./routes/productRoutes')
 
 app.use(express.json());
 
-app.use('/inventory',productRoutes);
+app.use('/products',productRoutes);
 
 
 const port = 4000;
