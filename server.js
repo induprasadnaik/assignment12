@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/products',productRoutes);
 
 
-const port = 4000;
+const port = 3000;
 app.listen(port,()=>{
     console.log(`server is running  on port ${port}`)
 });

@@ -1,68 +1,50 @@
 [
   {
     "productId": 1,
-    "productName": "Veg Rolls",
-    "description": "Preferred by Both Vegetarians and Non Vegetarians",
-    "Stock": true
+    "productName": "Boat Wired Headphones",
+    "description": "In-ear wired headphones with microphone",
+    "stock": true
   },
   {
-    "productId": 2,
-    "productName": "Chicken Manchuria",
-    "description": "Preferred by Non Vegetarians",
-    "Stock": true
+    "productId": 3,
+    "productName": "Mi Power Bank 10000mAh",
+    "description": "Portable power bank with fast charge support",
+    "stock": true
   },
   {
     "productId": 4,
-    "productName": "Fried Rice",
-    "description": "Chinese Style Rice",
-    "Stock": true
+    "productName": "Apple Lightning Cable",
+    "description": "Original Lightning to USB cable for iPhone",
+    "stock": false
   },
   {
     "productId": 5,
-    "productName": "Burger",
-    "description": "Fast Food",
-    "Stock": true
+    "productName": "Bluetooth Earbuds",
+    "description": "Wireless earbuds with noise cancellation",
+    "stock": true
   },
   {
     "productId": 6,
-    "productName": "Pizza",
-    "description": "Cheese Pizza",
-    "Stock": false
+    "productName": "Mobile Back Cover",
+    "description": "Shockproof silicone mobile case",
+    "stock": true
   },
   {
     "productId": 7,
-    "productName": "Sandwich",
-    "description": "Healthy Breakfast",
-    "Stock": true
+    "productName": "Screen Protector",
+    "description": "Tempered glass screen protector",
+    "stock": true
   },
   {
     "productId": 8,
-    "productName": "Pasta",
-    "description": "Italian Snack",
-    "Stock": true
+    "productName": "Car Mobile Holder",
+    "description": "Dashboard & windshield phone holder",
+    "stock": true
   },
   {
     "productId": 9,
-    "productName": "Samosa",
-    "description": "Indian Snack",
-    "Stock": true
-  },
-  {
-    "productId": 10,
-    "productName": "Biryani",
-    "description": "Rice Dish",
-    "Stock": false
-  },
-  {
-    "productId": 11,
-    "productName": "idly",
-    "description": "Gjhjhjhrians",
-    "Stock": true
-  },
-  {
-    "productId": 12,
-    "productName": "dhosa",
-    "description": "Gjhjhjhrians",
-    "Stock": true
+    "productName": "JBL Headset",
+    "description": "JBL 505 in-ears",
+    "stock": true
   }
 ]

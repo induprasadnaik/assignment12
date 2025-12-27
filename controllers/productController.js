@@ -32,19 +32,22 @@ exports.deleteProduct = (req, res) => {
   let products = loadProducts();
   products = products.filter(p => p.productId !== productId);
   saveProduct(products);
-  res.status(200).json({ message: `${productId} deleted successfully` });
+  res.status(200).json({ message: `Product deleted successfully` });
 
 }
 //update product 
 
 exports.updateProduct = (req, res) => {
   const productId = parseInt(req.params.id);
+  console.log(req.body);
   const products = loadProducts();
   let product = products.find(p => p.productId === productId)
   if (product) {
-    product.description = "Preferred by Both Vegetarians and Non Vegetarians";
+    product.productName = req.body.productName;
+    product.description = req.body.description;
+    product.stock = req.body.stock;
     saveProduct(products);
-    res.status(200).json({ message: `${productId} updated successfully` ,product});
+    res.status(200).json({ message: `Updated successfully` ,product});
   }
   else {
     res.status(404).json({ message: "Product not found" });
